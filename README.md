@@ -1,4 +1,6 @@
 # Typescript Monorepo Template
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fp-j%2Ftypescript-monorepo-template.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fp-j%2Ftypescript-monorepo-template?ref=badge_shield)
+
 
 This template is intended for OSS Typescript based projects and is centered around a few tools:
 
@@ -31,3 +33,7 @@ _AKA: "Note to self"_
 - `CODE_OF_CONDUCT.md`: change the contact address in the `Enforcement` paragraph
 - `.github/workflows/release.yml`: change the guard to your repository name
 - `.changeset/config.json`: change the repository name
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fp-j%2Ftypescript-monorepo-template.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fp-j%2Ftypescript-monorepo-template?ref=badge_large)
