@@ -2,12 +2,12 @@
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fp-j%2Ftypescript-monorepo-template.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fp-j%2Ftypescript-monorepo-template?ref=badge_shield)
 
 
-This template is intended for OSS Typescript based projects and is centered around a few tools:
+This template is intended for OSS (NPM published) Typescript based projects and is centered around a few tools:
 
-- **yarn** for dependency management and running tasks like `test` or `publish`
-- **lerna** for running package level commands
-- **changeset** for managing changelog generation, and release creation
-- **codecov** for code coverage
+- **yarn** for dependency management and running other tools like `lerna` or `changeset`
+- **lerna** for running package level commands (like `build` or `lint`)
+- **changeset** for managing changelog generation, release creation and auto publication to NPM
+- **codecov** for code coverage reporting
 
 It's a template that I tend to use for my own projects like
 
