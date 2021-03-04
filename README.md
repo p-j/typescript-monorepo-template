@@ -8,6 +8,9 @@ This template is intended for OSS (NPM published) Typescript based projects and 
 - **lerna** for running package level commands (like `build` or `lint`)
 - **changeset** for managing changelog generation, release creation and auto publication to NPM
 - **codecov** for code coverage reporting
+- **prettier** for code formatting (it runs a prettier action that will fix any issue for you :sparkles:)
+- **jest** to test your code
+- **typescript** as the name would have suggested
 
 It's a template that I tend to use for my own projects like
 
@@ -33,6 +36,11 @@ _AKA: "Note to self"_
 - `CODE_OF_CONDUCT.md`: change the contact address in the `Enforcement` paragraph
 - `.github/workflows/release.yml`: change the guard to your repository name
 - `.changeset/config.json`: change the repository name
+
+## TODO
+
+- Investigate NPM 7.6 vs Yarn v2
+- Investigate esbuild
 
 ## License
 
