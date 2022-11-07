@@ -22,5 +22,5 @@ dist
 *.sublime-project
 *.sublime-workspace
 .idea
-.vscode
+# .vscode
 .env
