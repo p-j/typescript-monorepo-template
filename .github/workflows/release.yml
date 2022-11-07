@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
-          node-version: 15
+          node-version: 18
       - run: yarn --pure-lockfile
       - uses: changesets/action@master
         with:
